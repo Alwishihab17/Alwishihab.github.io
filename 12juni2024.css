@@ -1,0 +1,138 @@
+
+body {
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+
+}
+.header {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.navigation {
+    text-align: center;
+    background-color: black;
+}
+ul {
+    text-align: center;
+    color: rgb(253, 251, 251);
+    list-style-type: none;
+    overflow: hidden;
+    }
+li {
+    float: left;
+    text-align: center;
+}
+li a, .dropbtn {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(6, 6, 6);
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 5px 5px 5px 5px grey;
+    z-index: 1;
+    border-radius: 10px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-radius: 10px;
+}
+.dropdown-content a:hover {
+    background-color: grey;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.kolom {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    background-color: rgb(3, 3, 70);
+    border-radius: 25px;
+    margin-block: 10px;
+    margin-left: 60px;
+    color: #f9f9f9;
+    text-align: justify;
+    text-indent: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+h2 {
+    text-align: center;
+}
+h1 {
+    margin-bottom: 2cm;
+    font-size: 5pc;
+    text-align: center;
+}
+.kolomplanet{
+    float: left;
+    width: 35%;
+    padding: 20px;
+    text-align: justify;
+    margin-right: 50px;
+    text-indent: 10px;
+}
+.gambar{
+    margin-left: 270px;
+    padding: 20px;
+}
+.h2 {
+    text-align: center;
+    margin-bottom: 2cm;
+    margin-top: 1cm;
+}
+
+p {
+    text-align: justify;
+}
+table {
+    text-align: center;
+    background-color: black;
+}
+th:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    font-style: italic;
+}
+td:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
